@@ -1,0 +1,91 @@
+/* pages/addoffer/index.wxss */
+page{
+  padding-top: 100rpx;
+}
+.add-main {
+  height: 100rpx;
+  padding: 0 20rpx;
+  position:fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.add-main>text:nth-of-type(1) {
+  font-size: 33rpx;
+  line-height: 100rpx;
+}
+
+.add-main navigator text {
+  font-size: 55rpx;
+  border: 3rpx solid #fc3;
+  border-radius: 62rpx;
+  height: 62rpx;
+  width: 62rpx;
+  line-height: 52rpx;
+  margin-top: 19rpx;
+}
+
+.list .top {
+  height: 71rpx;
+  font-size: 20rpx;
+  color: #5a5a5a;
+  padding: 0 20rpx;
+  line-height: 71rpx;
+  border-bottom: 1rpx solid #222;
+}
+
+.down {
+  height: 218rpx;
+  padding: 20rpx;
+}
+
+.down-l {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100rpx;
+  overflow: hidden;
+}
+
+.down-l image {
+  width: 100%;
+  height: 100%;
+}
+
+.down-c .phone {
+  width: 400rpx;
+  height: 100%;
+  font-size: 27rpx;
+  color: #5a5a5a;
+}
+
+.down-c .id text:nth-of-type(1) {
+  font-size: 37rpx;
+}
+
+.down-c .id text:nth-of-type(2) {
+  font-size: 27rpx;
+  height: 38rpx;
+  line-height: 38rpx;
+  border-radius: 5rpx;
+  padding: 0 10rpx;
+}
+
+.down-r {
+  height: 100%;
+}
+
+.down-r text {
+  width: 137rpx;
+  height: 53rpx;
+  line-height: 53rpx;
+  border-radius: 53rpx;
+  display: block;
+  font-size: 21rpx;
+  border: 1rpx solid #5a5a5a;
+  margin-top: 65rpx;
+}
+
+.down-r .active {
+  border: 1rpx solid #fc3;
+}

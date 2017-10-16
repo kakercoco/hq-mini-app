@@ -1,0 +1,16 @@
+<!--pages/login/login.wxml-->
+<view class="login">
+  <view class="login-phone">
+    <image src="/img/phone.png" class="fl img"></image>
+    <input type="number" placeholder="请输入您的手机号" class="fl" />
+  </view>
+  <view class="login-phone">
+    <image src="/img/code.png" class="fl img"></image>
+    <input type="number" placeholder="验证码"  class="fl"/>
+    <text class="fr">获取验证码</text>
+  </view>
+  <view class="login-btn">
+    <button class="bg-fc3">登录</button>
+  </view>
+</view>
+

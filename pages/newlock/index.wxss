@@ -1,0 +1,68 @@
+/* pages/newlock/index.wxss */
+
+.data-h3 {
+  padding: 20rpx;
+  width: 100%;
+  height: 71rpx;
+  line-height: 31rpx;
+  font-size: 27rpx;
+  border-bottom: 1rpx solid #222;
+}
+
+.data-h3 text {
+  padding-left: 20rpx;
+  border-left: 5rpx solid #fc3;
+  color: #6e6e6e;
+}
+.list{
+  height: 107rpx;
+  padding: 0 20rpx;
+  line-height: 107rpx;
+  border-bottom: 1rpx solid #222;
+  font-size: 33rpx;
+}
+.list navigator{
+  width: 100%;
+  height: 100%;
+}
+.list image{
+  width: 25rpx;
+  height: 30rpx;
+  margin-top: 40rpx;
+}
+.picker{
+  height: 100%;
+  color: #29a1f7;
+}
+.input{
+  width: 500rpx;
+  height: 100%;
+}
+.new-btn button{
+  width: 650rpx;
+  height: 92rpx;
+  line-height: 92rpx;
+  border-radius: 92rpx;
+  margin-top: 100rpx;
+  font-size: 31rpx;
+}
+.lock-mes{
+  height: 176rpx;
+  padding:40rpx 20rpx;
+}
+.lock-id{
+  font-size: 33rpx;
+}
+.lock-num{
+  font-size: 27rpx;
+  color: #6e6e6e;
+}
+.lock-add{
+  width: 174rpx;
+  height: 53rpx;
+  line-height: 53rpx;
+  border-radius: 53rpx;
+  border: 1rpx solid #fc3;
+  font-size: 25rpx;
+  margin-top: 20rpx;
+}

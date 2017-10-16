@@ -1,0 +1,76 @@
+<!--pages/openlock/index.wxml-->
+<view class="open-list bg-2b">
+  <view class="top">
+    <view class="top-l fl">2017年8月7日</view>
+    <view class="top-r fr">17:11</view>
+  </view>
+  <view class="down">
+    <navigator url="/pages/lock/record" open-type="navigate">
+      <view class="down-l fl">
+        <view class="id">
+          <text class="c-fff">我</text>
+          <text class="bg-fc3 c-333 tac ">户主</text>
+        </view>
+        <view class="num mt-20">
+          电子锁号：001001
+        </view>
+        <view class="phone mt-10">
+          手机号码：156xxxx7052
+        </view>
+      </view>
+      <view class="down-r fr">
+        <image src="/img/next.png"></image>
+      </view>
+    </navigator>
+  </view>
+</view>
+<view class="open-list bg-2b">
+  <view class="top">
+    <view class="top-l fl">2017年8月7日</view>
+    <view class="top-r fr">17:11</view>
+  </view>
+  <view class="down">
+    <navigator url="/pages/lock/record" open-type="navigate">
+      <view class="down-l fl">
+        <view class="id">
+          <text class="c-fff">我</text>
+          <text class="bg-fc3 c-333 tac ">户主</text>
+        </view>
+        <view class="num mt-20">
+          电子锁号：001001
+        </view>
+        <view class="phone mt-10">
+          手机号码：156xxxx7052
+        </view>
+      </view>
+      <view class="down-r fr">
+        <image src="/img/next.png"></image>
+      </view>
+    </navigator>
+  </view>
+</view>
+<view class="open-list bg-2b">
+  <view class="top">
+    <view class="top-l fl">2017年8月7日</view>
+    <view class="top-r fr">17:11</view>
+  </view>
+  <view class="down">
+    <navigator url="/pages/lock/record" open-type="navigate">
+      <view class="down-l fl">
+        <view class="id">
+          <text class="c-fff">爸爸</text>
+          <text class="bg-fc3 c-333 tac ">临时用户</text>
+        </view>
+        <view class="num mt-20">
+          电子锁号：001001
+        </view>
+        <view class="phone mt-10">
+          手机号码：156xxxx7052
+        </view>
+      </view>
+      <view class="down-r fr">
+        <image src="/img/next.png"></image>
+      </view>
+    </navigator>
+  </view>
+</view>

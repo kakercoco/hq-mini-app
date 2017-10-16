@@ -1,0 +1,32 @@
+
+{
+  "pages":[
+    "pages/index/index",
+    "pages/login/login",
+    "pages/register/information",
+    "pages/lock/record",
+    "pages/setting/index",
+    "pages/newlock/index",
+    "pages/openlock/index",
+    "pages/offer/index",
+    "pages/offerdetail/index",
+    "pages/addoffer/index",
+    "pages/adddetail/index",
+    "pages/editName/index",
+    "pages/editPhone/index",
+    "pages/mylock/index",
+    "pages/editMylock/index",
+    "pages/lockList/index",
+    "pages/editIdcard/index",
+    "pages/offerWhy/index",
+    "pages/offerLimit/index",
+    "pages/backFeed/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#202020",
+    "navigationBarTitleText": "黄雀云锁",
+    "navigationBarTextStyle":"white",
+    "backgroundColor":"#999999"
+  }
+}

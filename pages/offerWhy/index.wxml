@@ -1,0 +1,6 @@
+<!--pages/offerWhy/index.wxml-->
+<view class='title'>请描述授权原因</view>
+<textarea maxlength='200' auto-focus class='bg-2b mytextarea'></textarea>
+<view class='btn'>
+  <button class='bg-fc3'>确认</button>
+</view>

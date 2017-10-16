@@ -1,0 +1,9 @@
+<!--pages/editName/index.wxml-->
+<view class="bg-2b input">
+  <input type="text" maxlength="18" placeholder="请输入你的姓名" value="{{content}}" bindinput="chengeIpt" />
+</view>
+<view class="edit-btn">
+  <navigator url="/pages/adddetail/index" open-type="redirect">
+    <button class="bg-fc3" bindtap="sendData">确认</button>
+  </navigator>
+</view>

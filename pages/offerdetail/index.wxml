@@ -1,0 +1,22 @@
+<!--pages/offerdetail/index.wxml-->
+<view class="main-top bg-2b">
+  <view class="top-title">
+    <text>基本资料</text>
+  </view>
+  <view class="list">姓名：爸爸</view>
+  <view class="list">手机号码：139xxxx8888</view>
+  <view class="list">身份关系：临时用户</view>
+  <view class="list">电子锁号：001001</view>
+  <view class="list">蓝牙地址：xxxxxxxxxxxxxxxxxxxx</view>
+  <view class="list">开锁账户：xxxxxxxxxxxxxxxxxxxx</view>
+</view>
+<view class="main-down bg-2b mt-20">
+  <view class="top-title">
+    <text>授权信息</text>
+  </view>
+  <view class="list">授权人电话：139xxxx9999</view>
+  <view class="list">开始时间：2017年1月8日</view>
+  <view class="list">结束时间：2017年8月7日</view>
+  <view class="list">当前状态：生效中</view>
+  <view class="list">授权时间：2017年1月8日</view>
+</view>

@@ -1,0 +1,157 @@
+/* pages/index/index.wxss */
+page{
+  background-image: url(/img/home_bg.png);
+  background-size: cover;
+}
+.i-setting{
+  width: 278rpx;
+  height: 78rpx;
+  line-height: 48rpx;
+  border-radius: 78rpx;
+  padding: 15rpx 20rpx;
+  background-color: rgba(255, 255, 255, 0.15);
+  text-align: center;
+}
+.i-second-btn{
+  margin-top: 150rpx;
+  height: 78rpx;
+  width: 100%;
+  padding: 0 70rpx;
+}
+.i-setting image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.i-setting text{
+  color: #ffc600;
+  font-size: 29rpx;
+}
+.i-lock{
+  width: 278rpx;
+  height: 78rpx;
+  border-radius: 78rpx;
+  padding: 15rpx 20rpx;
+  background-color: rgba(255, 255, 255, 0.15);
+  line-height: 48rpx;
+  text-align: center;
+}
+.i-lock image{
+  width: 50rpx;
+  height: 50rpx;
+  z-index: 222;
+}
+.i-lock text{
+  color: #ffc600;
+  font-size: 29rpx;
+}
+.open-lock{
+  margin-top: 150rpx;
+}
+.open-lock image{
+  width: 384rpx;
+  height: 384rpx;
+  display: block;
+  margin: 0 auto;
+  border-radius: 384rpx;
+}
+.open-btn{
+  margin-top: 170rpx;
+
+}
+.open-btn button{
+  width: 550rpx;
+  height: 134rpx;
+  border-radius: 134rpx;
+  margin: 0 auto;
+  display: block;
+  line-height: 134rpx;
+  font-size: 37rpx;
+}
+.i-jm{
+  margin-top: 150rpx;
+  font-size: 20.8rpx;
+  color: #767676;
+}
+.i-checked-lock{
+  width: 100%;
+  color: #6e6e6e;
+  padding: 20rpx 80rpx;
+}
+.checked-id{
+  font-size: 21rpx;
+}
+.checked-address{
+  font-size: 17rpx;
+}
+.i-lock-list{
+  position: fixed;
+  z-index: 220;
+  top: 200rpx;
+  left: 65rpx;
+  width: 620rpx;
+  background-color: #3c3c3c;
+  border-radius: 20rpx;
+  padding: 0;
+  overflow: hidden;
+}
+.i-lock-list .item{
+  padding: 10rpx 0;
+  border-bottom: 1rpx solid #535353;
+  height: 110rpx;
+  position: relative;
+  margin: 0 25rpx;
+}
+.i-lock-list .item:last-of-type{
+  border: none;
+}
+.list-title{
+  font-size: 29rpx;
+  background-color: #2c2c2c;
+  height: 85rpx;
+  line-height: 85rpx;
+}
+.item-id{
+  font-size: 27rpx;
+  color: #dfdfdf;
+}
+.item-address{
+  font-size: 20rpx;
+  color: #6e6e6e;
+}
+.item-icon{
+  position: absolute;
+  top: 30rpx;
+  right: 0;
+  width: 42rpx;
+  height: 42rpx;
+}
+.login{
+  position: fixed;
+  top: 200rpx;
+  left: 67rpx;
+  width: 616rpx;
+  height: 383rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+  z-index: 20;
+}
+.login-title{
+  height: 85rpx;
+  line-height: 85rpx;
+}
+.login-ipt{
+  background-color: #424242;
+  height: 105rpx;
+  border-top: 1rpx solid #6f6f6f;
+  padding: 20rpx;
+}
+.login-ipt input{
+  height: 100%;
+  font-size: 25rpx;
+}
+.login-btn{
+  font-size: 33rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+

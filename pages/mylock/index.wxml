@@ -1,0 +1,56 @@
+<!--pages/mylock/index.wxml-->
+<view class='my-main'>
+  <view class='main-id'>锁设备号：001001
+    <text class='fr bg-fc3 main-status c-333 tac'>户主</text>
+  </view>
+  <view class='main-id'>安装地址：上海市杨浦区xxxxxxxxxxxxxxxxx</view>
+  <view class='main-id'>安装时间：2017年8月7日</view>
+  <view class='main-btn'>
+    <view class='fr'>
+      <navigator open-type='navigate' url='/pages/editMylock/index'>
+        <image src='/img/myedit.png'></image>
+        编辑
+      </navigator>
+    </view>
+    <view class='fr mr-20' bindtap='delLock'>
+      <image src='/img/mydelete.png'></image>
+      删除
+    </view>
+  </view>
+</view>
+<view class='my-second mt-20'>
+  <view class='second-id'>
+    锁设备号：001001
+    <text class='fr bg-fc3 main-status c-333 tac'>临时用户</text>
+  </view>
+  <view class='second-id'>
+    授权人姓名：李小白
+  </view>
+  <view class='second-id'>
+    授权人手机：139xxxx8888
+  </view>
+  <view class='second-id'>
+    安装地址：上海市杨浦区xxxxxxxxxxxxxxxxx
+  </view>
+  <view class='second-id'>
+    当前状态：生效中
+  </view>
+  <view class='second-id'>
+    授权期限
+    <navigator open-type='navigate' url='/pages/offerLimit/index' class='fr'>
+      <text class='fr c-fc3 main-status c-333 tac'>详情查询</text>
+    </navigator>
+  </view>
+</view>
+<view class='mylock-sever'>
+  <view class='fl' bindtap='call'>
+    <image src='/img/lock_sever.png' mode='widthFix'></image>
+    保修服务
+  </view>
+  <view class='fl'>
+    <navigator open-type='navigate' url='/pages/backFeed/index'>
+      <image src='/img/lock_idea.png' mode='widthFix'></image>
+      意见反馈
+    </navigator>
+  </view>
+</view>

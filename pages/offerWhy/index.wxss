@@ -1,0 +1,22 @@
+/* pages/offerWhy/index.wxss */
+page{
+  padding: 20rpx;
+}
+.title{
+  font-size: 27rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.mytextarea{
+  height: 335rpx;
+  width: 100%; 
+  border-radius: 10rpx;
+}
+.btn button{
+  width: 650rpx;
+  height: 92rpx;
+  border-radius: 92rpx;
+  font-size: 31rpx;
+  line-height: 92rpx;
+  margin-top: 120rpx;
+}

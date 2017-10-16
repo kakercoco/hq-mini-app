@@ -1,0 +1,23 @@
+<!--pages/offerLimit/index.wxml-->
+<view>
+  <view class='list bg-2b2b2b'>
+    <text class='fl'>开始时间</text>
+    <text class='fr'>2017年1月8日</text>
+  </view>
+  <view class='list bg-2b2b2b'>
+    <text class='fl'>结束时间</text>
+    <text class='fr'>2017年1月8日</text>
+  </view>
+  <view class='list bg-2b2b2b'>
+    <text class='fl'>每日有效时段</text>
+    <text class='fr'>08am -- 10am</text>
+  </view>
+  <view class='list bg-2b2b2b'>
+    <text class='fl'>每日有效时段</text>
+    <text class='fr'>13pm -- 15pm</text>
+  </view>
+  <view class='list bg-2b2b2b'>
+    <text class='fl'>每日有效时段</text>
+    <text class='fr'>13pm -- 15pm</text>
+  </view>
+</view>

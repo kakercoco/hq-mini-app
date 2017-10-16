@@ -1,0 +1,12 @@
+<!--pages/editMylock/index.wxml-->
+<view class='list'>安装地址：上海市杨浦区xxxxxxxxxxxxxxxxx</view>
+<view class='list'>安装时间：
+  <picker mode="date" value="{{date}}" start="2015-09-01" end="2018-09-01" bindchange="bindDateChange" class='fr'>
+    <view class="picker">
+     {{date}}
+    </view>
+  </picker>
+</view>
+<view class='list-btn'>
+  <button class='bg-fc3' bindtap='sureEdit'>确认</button>
+</view>

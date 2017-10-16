@@ -1,0 +1,18 @@
+/* pages/lockList/index.wxss */
+.list{
+  height: 107rpx;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #222;
+}
+.lock-id{
+  font-size: 27rpx;
+}
+.lock-address{
+  font-size: 20rpx;
+  color: #6e6e6e;
+}
+.lock-ck{
+  width:42rpx;
+  height: 42rpx;
+  margin-top: 10rpx;
+}

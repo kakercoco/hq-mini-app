@@ -1,0 +1,21 @@
+/* pages/offerdetail/index.wxss */
+.top-title{
+  height: 71rpx;
+  padding: 20rpx;
+  line-height: 31rpx;
+  border-bottom: 1rp solid #222;
+}
+.top-title text{
+  font-size: 27rpx;
+  color: #5a5a5a;
+  border-left: 5rpx solid #fc3;
+  padding-left: 20rpx;
+}
+.list{
+  height: 107rpx;
+  line-height: 107rpx;
+  padding: 0 20rpx;
+  border-bottom: 1rpx solid #222;
+  font-size: 33rpx;
+  overflow: hidden;
+}

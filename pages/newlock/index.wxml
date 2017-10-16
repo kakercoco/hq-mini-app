@@ -1,0 +1,53 @@
+<!--pages/newlock/index.wxml-->
+<view class='lock-mes bg-2b'>
+  <view class='fl'>
+    <view class='lock-id c-fc3'>锁设备号：001001</view>
+    <view class='lock-num mt-20'>蓝牙地址：11:22:33:44:55:66</view>
+  </view>
+  <view class='fr lock-add tac c-fc3'>
+    <navigator open-type='navigate' url='/pages/lockList/index'>
+      扫描电子锁
+    </navigator>
+  </view>
+</view>
+<view class="new-data bg-2b mt-20">
+  <view class="data-h3">
+    <text>基本资料</text>
+  </view>
+  <view class="list">
+    <navigator open-type='navigate' url='/pages/editName/index'>
+      <text class="fl">户主名称</text>
+      <image src="/img/next.png" class="fr"></image>
+    </navigator>
+  </view>
+  <view class="list">
+    <navigator open-type='navigate' url='/pages/editPhone/index'>
+      <text class="fl">户主手机</text>
+      <image src="/img/next.png" class="fr"></image>
+    </navigator>
+  </view>
+  <view class="list">
+    <navigator open-type='navigate' url='/pages/editIdcard/index'>
+      <text class="fl">身份证号</text>
+      <image src="/img/next.png" class="fr"></image>
+    </navigator>
+  </view>
+</view>
+<view class="new-mes mt-20 bg-2b">
+  <view class="data-h3">
+    <text>安装信息</text>
+  </view>
+  <view class="list">
+    <text class="fl">安装地址</text>
+    <input type="text" class="fl input c-fff ml-20" />
+  </view>
+  <view class="list">
+    <text class="fl">安装日期</text>
+    <picker mode="date" class="fr picker" start="2015-09-01" end="2017-09-01" value="{{date}}" bindchange="bindChangeDate">
+      <view class="111">{{date}}</view>
+    </picker>
+  </view>
+</view>
+<view class="new-btn">
+  <button class="bg-fc3">确认</button>
+</view>

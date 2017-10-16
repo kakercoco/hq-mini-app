@@ -1,0 +1,12 @@
+<!--pages/backFeed/index.wxml-->
+<view>
+  <view class='back-title'>请输入您的反馈意见</view>
+  <textarea class='back-text' focus></textarea>
+  <view class='mt-20 back-phone'>
+    <text class='fl'>手机号</text>
+    <text class='fr'>15670520667</text>
+  </view>
+  <view class='back-btn'>
+    <button class='bg-fc3'>提交</button>
+  </view>
+</view>

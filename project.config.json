@@ -1,0 +1,58 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true
+	},
+	"compileType": "weapp",
+	"libVersion": "1.5.2",
+	"appid": "wx639de05c0782967b",
+	"projectname": "%E9%BB%84%E9%9B%80%E4%BA%91%E9%94%81",
+	"condition": {
+		"weapp": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "登录页面",
+					"pathName": "pages/login/login",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的电子锁",
+					"pathName": "pages/mylock/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "新锁登记",
+					"pathName": "pages/newlock/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "添加授权",
+					"pathName": "pages/adddetail/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "授权记录",
+					"pathName": "pages/offer/index",
+					"query": ""
+				}
+			]
+		},
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		}
+	}
+}

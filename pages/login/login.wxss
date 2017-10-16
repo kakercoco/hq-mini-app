@@ -1,0 +1,43 @@
+/* pages/login/login.wxss */
+page{
+  background-image: url(/img/login-bg.png);
+  background-size: cover;
+}
+.login{
+  padding: 160rpx 40rpx 0 40rpx;
+}
+.login-phone{
+  border-bottom: 1rpx solid #3e3e3e;
+  height: 120rpx;
+  padding: 30rpx 10rpx;
+  line-height: 120rpx;
+}
+.login-phone .img{
+    width: 44rpx;
+    height: 44rpx;
+    margin-top: 8rpx;
+}
+.login-phone input{
+  font-size: 27rpx;
+  margin-left: 30rpx;
+  height: 50rpx;
+  width: 370rpx;
+  color:#fff;
+  margin-top: 5rpx;
+}
+.login-phone text{
+  line-height: 30rpx;
+  height: 60rpx;
+  background-color: rgba(255,255, 255, 0.12);
+  color:#fc3;
+  font-size: 23rpx;
+  padding: 15rpx 30rpx;
+  border-radius: 60rpx;
+}
+.login-btn button{
+  border-radius: 100rpx;
+  height: 100rpx;
+  margin-top: 200rpx;
+  font-size: 31rpx;
+  line-height: 100rpx;
+}

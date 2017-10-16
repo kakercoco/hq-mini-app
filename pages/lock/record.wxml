@@ -1,0 +1,46 @@
+<!--pages/lock/record.wxml-->
+<view class="record">
+  <view class="record-title bg-2b">
+    <view class="logo fl">
+      <image src="{{personInfo.avatarUrl}}"></image>
+    </view>
+    <view class="mes fl ml-20">
+        <view class="mes-id mt-20">
+          <text class="fl c-fff">爸爸</text>
+          <text class="bg-fc3 fl tac">临时用户</text>
+        </view>
+        <view class="mes-phone fl c-fff">156xxxx0667</view>
+    </view>
+  </view>
+  <view class="record-cont mt-20">
+    <view class="list bg-2b">
+      <text class="fl ">电子锁号：</text>
+      <text class="fl">001001</text>
+    </view>
+    <view class="list bg-2b">
+      <text class="fl ">安装地址：</text>
+      <text class="fl">上海市杨浦区xxxxxxxxxxxxxxxxx</text>
+    </view>
+    <view class="list bg-2b">
+      <text class="fl ">开锁时间：</text>
+      <text class="fl">2017年8月7日  15：48</text>
+    </view>
+  </view>
+  <view class="record-cont mt-20">
+  <view class="list-h3 bg-2b c-999">
+    <text>授权信息</text>
+  </view>
+    <view class="list bg-2b">
+      <text class="fl ">开始时间：</text>
+      <text class="fl">2017年1月8日</text>
+    </view>
+    <view class="list bg-2b">
+      <text class="fl ">结束时间：</text>
+      <text class="fl">2017年1月8日</text>
+    </view>
+    <view class="list bg-2b">
+      <text class="fl ">授权原因：</text>
+      <text class="fl">情况需要xxxxxxxxxxxxxxxxxxxxx</text>
+    </view>
+  </view>
+</view>
