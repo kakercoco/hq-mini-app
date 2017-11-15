@@ -12,13 +12,13 @@
   padding: 0 20rpx;
   line-height: 70rpx;
   font-size: 37rpx;
-  color: #dfdfdf;
+  color: #333;
 }
 
 .down {
   height: 100rpx;
   padding: 0 20rpx;
-  border-bottom: 1rpx solid #222;
+  border-bottom: 1rpx solid #e9e5d7;
 }
 
 .down-l {
@@ -36,6 +36,7 @@
 
 .down-r text {
   font-size: 27rpx;
+  color: #6e6e6e;
 }
 
 .down navigator {
@@ -52,10 +53,10 @@
 .center>view {
   width: 150rpx;
   height: 60rpx;
-  color: #fc3;
+  color: #b29e69;
   line-height: 30rpx;
   border-radius: 60rpx;
-  border: 1rpx solid #fc3;
+  border: 1rpx solid #b29e69;
   font-size: 27rpx;
   text-align: center;
   padding: 15rpx 20rpx;
@@ -81,20 +82,22 @@
   height: 85rpx;
   line-height: 85rpx;
   font-size: 29rpx;
+  background-color: #c6b786;
+  color: #fff;
 }
 
 .choose-list {
   width: 100%;
   height: 105rpx;
   line-height: 105rpx;
-  background-color: #424242;
-  border-bottom: 1rpx solid #222;
+  background-color: #efeeeb;
+  border-bottom: 1rpx solid #d7d6d5;
   font-size: 29rpx;
   padding: 0 20rpx;
+  color: #333;
 }
 
 .choose-list image {
   width: 42rpx;
-  height: 42rpx;
   margin-top: 30rpx;
 }

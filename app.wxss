@@ -17,7 +17,7 @@
 }
 
 page {
-  background-color: #323232;
+  background-color: #f3f3f3;
   color: #dfdfdf;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   box-sizing: border-box;
@@ -91,7 +91,7 @@ view, text, navigator, input ,textarea{
 }
 
 .bg-fc3 {
-  background-color: #fc3;
+  background-color: #baa874;
 }
 
 .bg-ccc {
@@ -158,6 +158,6 @@ view, text, navigator, input ,textarea{
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.3);
   z-index: 10;
 }

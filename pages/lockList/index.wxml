@@ -1,8 +1,8 @@
 <!--pages/lockList/index.wxml-->
 <view class=' mt-20'>
-  <view class='list bg-2b' wx:for="{{lockList}}" bindtap='ck' data-id='{{item.id}}'>
+  <view class='list bg-fff' wx:for="{{lockList}}" bindtap='ck' data-id='{{item.id}}'>
     <view class='fl'>
-      <view class='lock-id'>锁设备号：{{item.id}}</view>
+      <view class='lock-id c-333'>锁设备号：{{item.id}}</view>
       <view class='mt-10 lock-address'>蓝牙地址：{{item.address}}</view>
     </view>
     <view class='fr'>

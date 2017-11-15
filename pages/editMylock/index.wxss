@@ -1,17 +1,24 @@
 /* pages/editMylock/index.wxss */
 page{
   height: 100%;
+  background-color: #efeeeb;
 }
 .list {
   height: 105rpx;
   line-height: 105rpx;
-  background-color: #2b2b2b;
+  background-color: #fff;
   font-size: 27rpx;
   padding: 0 20rpx;
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid #f3f3f3;
+  color: #333;
 }
 .list picker{
-  color: #29a1f7;
+  color: #333;
+}
+.list image{
+  width: 34rpx;
+  margin-top: 35rpx;
+  margin-right: 35rpx;
 }
 .list-btn{
   position: absolute;
@@ -28,4 +35,5 @@ page{
   line-height: 92rpx;
   border-radius: 92rpx;
   font-size: 31rpx;
+  color: #fff;
 }

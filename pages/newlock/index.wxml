@@ -1,16 +1,16 @@
 <!--pages/newlock/index.wxml-->
-<view class='lock-mes bg-2b'>
+<view class='lock-mes bg-fff'>
   <view class='fl'>
-    <view class='lock-id c-fc3'>锁设备号：001001</view>
+    <view class='lock-id'>锁设备号：001001</view>
     <view class='lock-num mt-20'>蓝牙地址：11:22:33:44:55:66</view>
   </view>
-  <view class='fr lock-add tac c-fc3'>
+  <view class='fr lock-add tac'>
     <navigator open-type='navigate' url='/pages/lockList/index'>
       扫描电子锁
     </navigator>
   </view>
 </view>
-<view class="new-data bg-2b mt-20">
+<view class="new-data bg-fff mt-20">
   <view class="data-h3">
     <text>基本资料</text>
   </view>
@@ -33,19 +33,20 @@
     </navigator>
   </view>
 </view>
-<view class="new-mes mt-20 bg-2b">
+<view class="new-mes mt-20 bg-fff">
   <view class="data-h3">
     <text>安装信息</text>
   </view>
   <view class="list">
     <text class="fl">安装地址</text>
-    <input type="text" class="fl input c-fff ml-20" />
+    <input type="text" class="fl input c-333 ml-20" />
   </view>
   <view class="list">
     <text class="fl">安装日期</text>
     <picker mode="date" class="fr picker" start="2015-09-01" end="2017-09-01" value="{{date}}" bindchange="bindChangeDate">
-      <view class="111">{{date}}</view>
+      <view class="111 c-333">{{date}}</view>
     </picker>
+    <image src='/img/edit_time.png' mode='widthFix' class='fr pickDate'></image>
   </view>
 </view>
 <view class="new-btn">

@@ -14,16 +14,18 @@ page{
 .add-main>text:nth-of-type(1) {
   font-size: 33rpx;
   line-height: 100rpx;
+  color: #b29e69;
 }
 
 .add-main navigator text {
   font-size: 55rpx;
-  border: 3rpx solid #fc3;
+  border: 3rpx solid #b29e69;
   border-radius: 62rpx;
   height: 62rpx;
   width: 62rpx;
   line-height: 52rpx;
   margin-top: 19rpx;
+  color: #b29e69;
 }
 
 .list .top {
@@ -38,6 +40,7 @@ page{
 .down {
   height: 218rpx;
   padding: 20rpx;
+  border-bottom: 1rpx solid #f5f5f5;
 }
 
 .down-l {
@@ -56,11 +59,12 @@ page{
   width: 400rpx;
   height: 100%;
   font-size: 27rpx;
-  color: #5a5a5a;
+  color: #6e6e6e;
 }
 
 .down-c .id text:nth-of-type(1) {
   font-size: 37rpx;
+  color: #333;
 }
 
 .down-c .id text:nth-of-type(2) {
@@ -69,6 +73,7 @@ page{
   line-height: 38rpx;
   border-radius: 5rpx;
   padding: 0 10rpx;
+  color: #fff;
 }
 
 .down-r {
@@ -82,10 +87,11 @@ page{
   border-radius: 53rpx;
   display: block;
   font-size: 21rpx;
-  border: 1rpx solid #5a5a5a;
+  border: 1rpx solid #b29e69;
   margin-top: 65rpx;
+  color: #b29e69;
 }
 
 .down-r .active {
-  border: 1rpx solid #fc3;
+  border: 1rpx solid #b29e69;
 }

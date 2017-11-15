@@ -1,8 +1,14 @@
 /* pages/lockList/index.wxss */
+page{
+  background-color: #efeeeb;
+}
 .list{
   height: 107rpx;
   padding: 20rpx;
-  border-bottom: 1rpx solid #222;
+  border-bottom: 1rpx solid #cfc3a3;
+}
+.list:last-child{
+  border: none;
 }
 .lock-id{
   font-size: 27rpx;

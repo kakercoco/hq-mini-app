@@ -1,5 +1,5 @@
 <!--pages/setting/index.wxml-->
-<view class="set-top bg-2b">
+<view class="set-top">
   <view class="icon">
     <image src="{{personInfo.avatarUrl}}"></image>
   </view>
@@ -11,13 +11,13 @@
   </view>
 </view>
 <!--用户登录之后显示我的电子锁  -->
-<view class="infor bg-2b" wx:if="{{true}}">
+<view class="infor bg-fff" wx:if="{{true}}">
   <navigator url="/pages/mylock/index" open-type="navigate">
     <text>我的电子锁</text>
     <image src="/img/next.png" class="fr"></image>
   </navigator>
 </view>
-<view class="set-item mt-20 bg-2b">
+<view class="set-item mt-20 bg-fff">
   <view class="list">
     <navigator url="/pages/newlock/index" open-type="navigate">
       <image src="/img/setting01.png" class="fl icon"></image>
@@ -27,32 +27,32 @@
   </view>
   <view class="list">
     <navigator url="/pages/addoffer/index" open-type="navigate">
-      <image src="/img/setting05.png" class="fl icon"></image>
+      <image src="/img/setting02.png" class="fl icon"></image>
       <text class="fl">授权开锁</text>
       <image src="/img/next.png" class="fr next"></image>
     </navigator>
   </view>
   <view class="list">
     <navigator url="/pages/openlock/index" open-type="navigate">
-      <image src="/img/setting02.png" class="fl icon"></image>
+      <image src="/img/setting03.png" class="fl icon"></image>
       <text class="fl">开锁记录</text>
       <image src="/img/next.png" class="fr next"></image>
     </navigator>
   </view>
   <view class="list">
     <navigator url="/pages/offer/index" open-type="navigate">
-      <image src="/img/setting03.png" class="fl icon"></image>
+      <image src="/img/setting04.png" class="fl icon"></image>
       <text class="fl">我的授权</text>
       <image src="/img/next.png" class="fr next"></image>
     </navigator>
   </view>
   <view class="list">
-    <image src="/img/setting04.png" class="fl icon"></image>
-    <text class="fl">关于小程序</text>
+    <image src="/img/setting05.png" class="fl icon"></image>
+    <text class="fl">关于APP</text>
     <image src="/img/next.png" class="fr next"></image>
   </view>
 </view>
 <!--用户登录之后显示退出按钮 -->
 <view class="set-btn mt-20">
-  <button class="bg-fc3">退出</button>
+  <button class="bg-fc3 c-fff">退出</button>
 </view>

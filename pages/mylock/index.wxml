@@ -1,7 +1,7 @@
 <!--pages/mylock/index.wxml-->
 <view class='my-main'>
   <view class='main-id'>锁设备号：001001
-    <text class='fr bg-fc3 main-status c-333 tac'>户主</text>
+    <text class='fr  main-status c-fff tac'>户主</text>
   </view>
   <view class='main-id'>安装地址：上海市杨浦区xxxxxxxxxxxxxxxxx</view>
   <view class='main-id'>安装时间：2017年8月7日</view>
@@ -21,7 +21,7 @@
 <view class='my-second mt-20'>
   <view class='second-id'>
     锁设备号：001001
-    <text class='fr bg-fc3 main-status c-333 tac'>临时用户</text>
+    <text class='fr bg-fc3 main-status c-fff tac'>临时用户</text>
   </view>
   <view class='second-id'>
     授权人姓名：李小白
@@ -38,7 +38,7 @@
   <view class='second-id'>
     授权期限
     <navigator open-type='navigate' url='/pages/offerLimit/index' class='fr'>
-      <text class='fr c-fc3 main-status c-333 tac'>详情查询</text>
+      <text class='fr main-status tac' style='background-color:#fff;color:#b3a06a;'>详情查询</text>
     </navigator>
   </view>
 </view>

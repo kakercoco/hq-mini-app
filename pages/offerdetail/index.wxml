@@ -1,5 +1,5 @@
 <!--pages/offerdetail/index.wxml-->
-<view class="main-top bg-2b">
+<view class="main-top bg-fff">
   <view class="top-title">
     <text>基本资料</text>
   </view>
@@ -10,7 +10,7 @@
   <view class="list">蓝牙地址：xxxxxxxxxxxxxxxxxxxx</view>
   <view class="list">开锁账户：xxxxxxxxxxxxxxxxxxxx</view>
 </view>
-<view class="main-down bg-2b mt-20">
+<view class="main-down bg-fff mt-20">
   <view class="top-title">
     <text>授权信息</text>
   </view>

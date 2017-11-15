@@ -1,34 +1,44 @@
 /* pages/newlock/index.wxss */
-
+page{
+  background-color: #efeeeb;
+}
 .data-h3 {
   padding: 20rpx;
   width: 100%;
   height: 71rpx;
   line-height: 31rpx;
   font-size: 27rpx;
-  border-bottom: 1rpx solid #222;
+  border-bottom: 1rpx solid #efeeeb;
 }
 
 .data-h3 text {
   padding-left: 20rpx;
-  border-left: 5rpx solid #fc3;
+  border-left: 5rpx solid #b29e69;
   color: #6e6e6e;
 }
 .list{
   height: 107rpx;
   padding: 0 20rpx;
   line-height: 107rpx;
-  border-bottom: 1rpx solid #222;
+  border-bottom: 1rpx solid #efeeeb;
   font-size: 33rpx;
 }
 .list navigator{
   width: 100%;
   height: 100%;
 }
+.list text{
+  color: #333;
+}
 .list image{
   width: 25rpx;
   height: 30rpx;
   margin-top: 40rpx;
+}
+.list .pickDate{
+  width: 34rpx;
+  margin-right: 35rpx;
+  margin-top: 35rpx;
 }
 .picker{
   height: 100%;
@@ -45,24 +55,27 @@
   border-radius: 92rpx;
   margin-top: 100rpx;
   font-size: 31rpx;
+  color: #fff;
 }
 .lock-mes{
   height: 176rpx;
   padding:40rpx 20rpx;
+  color: #b29e69;
 }
 .lock-id{
   font-size: 33rpx;
 }
 .lock-num{
   font-size: 27rpx;
-  color: #6e6e6e;
+  color: #b29e69;
 }
 .lock-add{
   width: 174rpx;
   height: 53rpx;
   line-height: 53rpx;
   border-radius: 53rpx;
-  border: 1rpx solid #fc3;
+  border: 1rpx solid #b29e69;
   font-size: 25rpx;
   margin-top: 20rpx;
+  color: #b29e69;
 }

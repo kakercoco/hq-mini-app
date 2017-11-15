@@ -6,6 +6,7 @@
      {{date}}
     </view>
   </picker>
+  <image src='/img/edit_time.png' mode='widthFix' class='fr'></image>
 </view>
 <view class='list-btn'>
   <button class='bg-fc3' bindtap='sureEdit'>确认</button>

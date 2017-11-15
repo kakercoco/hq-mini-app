@@ -1,12 +1,14 @@
 /* pages/index/index.wxss */
 page{
-  background-image: url(/img/home_bg.png);
+    background: linear-gradient(to bottom, #c6b786, #a9945c);
+}
+.body{
+  background-image: url(https://www.hqwell.net/images/body-bg.png);
   background-size: cover;
+  height: 100vh;
 }
 .i-setting{
-  width: 278rpx;
-  height: 78rpx;
-  line-height: 48rpx;
+  width: 50%;
   border-radius: 78rpx;
   padding: 15rpx 20rpx;
   background-color: rgba(255, 255, 255, 0.15);
@@ -14,38 +16,41 @@ page{
 }
 .i-second-btn{
   margin-top: 150rpx;
-  height: 78rpx;
+  height: 300rpx;
   width: 100%;
-  padding: 0 70rpx;
+  padding-top: 100rpx;
 }
 .i-setting image{
-  width: 50rpx;
-  height: 50rpx;
+  width: 85rpx;
+  margin: 0 auto;
+  display: block;
 }
 .i-setting text{
-  color: #ffc600;
+  color: #544a2d;
   font-size: 29rpx;
+  display: block;
+  margin-top: 25rpx;
 }
 .i-lock{
-  width: 278rpx;
-  height: 78rpx;
-  border-radius: 78rpx;
+  width: 50%;
   padding: 15rpx 20rpx;
   background-color: rgba(255, 255, 255, 0.15);
-  line-height: 48rpx;
   text-align: center;
 }
 .i-lock image{
-  width: 50rpx;
-  height: 50rpx;
+  width: 85rpx;
+  display: block;
   z-index: 222;
+  margin: 0 auto;
 }
 .i-lock text{
-  color: #ffc600;
+  color: #544a2d;
   font-size: 29rpx;
+  margin-top: 25rpx;
+  display: block;
 }
 .open-lock{
-  margin-top: 150rpx;
+  padding-top: 60rpx;
 }
 .open-lock image{
   width: 384rpx;
@@ -68,11 +73,15 @@ page{
   font-size: 37rpx;
 }
 .i-jm{
-  margin-top: 150rpx;
+  position: fixed;
   font-size: 20.8rpx;
   color: #767676;
+  bottom: 0;
+  width: 100%;
+  height: 100rpx;
 }
 .i-checked-lock{
+  margin-top: 20rpx;
   width: 100%;
   color: #6e6e6e;
   padding: 20rpx 80rpx;
@@ -81,7 +90,7 @@ page{
   font-size: 21rpx;
 }
 .checked-address{
-  font-size: 17rpx;
+  font-size: 21rpx;
 }
 .i-lock-list{
   position: fixed;
@@ -89,41 +98,44 @@ page{
   top: 200rpx;
   left: 65rpx;
   width: 620rpx;
-  background-color: #3c3c3c;
+  background-color: #efeeeb;
   border-radius: 20rpx;
   padding: 0;
   overflow: hidden;
 }
 .i-lock-list .item{
-  padding: 10rpx 0;
-  border-bottom: 1rpx solid #535353;
+  padding: 10rpx 20rpx;
+  border-bottom: 1rpx solid #d7d6d5;
   height: 110rpx;
   position: relative;
-  margin: 0 25rpx;
+
 }
 .i-lock-list .item:last-of-type{
   border: none;
 }
 .list-title{
   font-size: 29rpx;
-  background-color: #2c2c2c;
+  background-color: #c6b786;
   height: 85rpx;
   line-height: 85rpx;
 }
 .item-id{
   font-size: 27rpx;
-  color: #dfdfdf;
+  color: #333;
 }
 .item-address{
   font-size: 20rpx;
-  color: #6e6e6e;
+  color: #787878;
+  overflow: hidden;
+  width:100%;
+  height: 30rpx;
 }
 .item-icon{
   position: absolute;
-  top: 30rpx;
-  right: 0;
+  top: 40rpx;
+  right: 30rpx;
   width: 42rpx;
-  height: 42rpx;
+
 }
 .login{
   position: fixed;
@@ -138,20 +150,24 @@ page{
 .login-title{
   height: 85rpx;
   line-height: 85rpx;
+  background-color: #c6b786;
+  font-size: 28rpx;
 }
 .login-ipt{
-  background-color: #424242;
+  background-color: #fff;
   height: 105rpx;
-  border-top: 1rpx solid #6f6f6f;
+  border-top: 1rpx solid #d7d6d5;
   padding: 20rpx;
 }
 .login-ipt input{
   height: 100%;
   font-size: 25rpx;
+  color: #333;
 }
 .login-btn{
   font-size: 33rpx;
   height: 90rpx;
   line-height: 90rpx;
+  background-color: #a9955d;
 }
 

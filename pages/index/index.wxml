@@ -1,5 +1,5 @@
 <!--pages/index/index.wxml-->
-
+<view class='body'>
 <view class="i-bg" wx:if="{{bgShow}}" bindtap='hideAlert'></view>
 <view class="i-lock-list" wx:if="{{listShow}}">
   <view class='list-title tac'>扫描到附近设备号</view>
@@ -7,38 +7,38 @@
     <view class="item-id">锁设备号：{{item.id}}</view>
     <view class="item-address">身份：{{item.sf}}</view>
     <view class='item-address mt-5'>{{item.address}}</view>
-    <image src='/img/sure.png' class="item-icon" wx:if="{{checkedIcon==item.id}}"></image>
+    <image src='/img/sure.png' class="item-icon" wx:if="{{checkedIcon==item.id}}" mode='widthFix'></image>
   </view>
 </view>
 <view class="open-lock">
-  <image src="{{imgUrl}}" bindtouchstart='touchStart' bindtouchend='touchEnds' bindtap='openlock'></image>
+  <image src="{{imgUrl}}" bindtap='openlock'></image>
 </view>
 <view class='login' wx:if="{{loginShow}}">
-  <view class='login-title bg-2b tac'>请输入账号和密码</view>
+  <view class='login-title tac c-fff'>请输入账号和密码</view>
   <view class='login-ipt'>
     <input type='text' placeholder='请输入账号'></input>
   </view>
   <view class='login-ipt'>
     <input type='text' password placeholder='请输入密码'></input>
   </view>
-  <view class='login-btn bg-fc3 c-333 tac' bindtap='overlock'>完成</view>
+  <view class='login-btn c-fff tac' bindtap='overlock'>完成</view>
+</view>
+<view class="i-checked-lock tac">
+  <view class="checked-address c-fff">{{checkedLock.address}}</view>
+  <view class="checked-id c-fff">锁设备号：{{checkedLock.id}} </view>
+  <!-- <view class="checked-address">身份：{{checkedLock.sf}}</view> -->
 </view>
 <view class='i-second-btn'>
   <view class="i-lock fl" bindtap='showAlert'>
-    <image src="/img/i_vlock.png" class='fl'></image>
+    <image src="/img/i_vlock.png" mode="widthFix"></image>
     <text>扫描电子锁</text>
   </view>
   <view class="i-setting fr">
     <navigator url="/pages/setting/index" open-type="navigate">
-      <image src="/img/i_setting.png" class='fl'></image>
+      <image src="/img/i_setting.png" mode="widthFix" ></image>
       <text>设置</text>
     </navigator>
   </view>
-</view>
-<view class="i-checked-lock">
-  <view class="checked-id">锁设备号：{{checkedLock.id}} </view>
-  <view class="checked-address">身份：{{checkedLock.sf}}</view>
-  <view class="checked-address">{{checkedLock.address}}</view>
 </view>
 <!-- <view class="open-btn">
   <navigator url="/pages/addoffer/index" open-type="navigate">
@@ -48,4 +48,5 @@
 <view class="i-jm">
   <view class="tac">上海加缪物联网科技有限公司</view>
   <view class="tac mt-10">©2017版权所有</view>
+</view>
 </view>

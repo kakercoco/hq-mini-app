@@ -1,9 +1,13 @@
 /* pages/offerLimit/index.wxss */
+page{
+  background-color: #efeeeb;
+}
 .list{
   height: 106rpx;
   line-height: 106rpx;
   padding: 0 20rpx;
-  border-bottom: 1rpx solid #222;
-  background-color: #2b2b2b;
+  border-bottom: 1rpx solid #efeeeb;
+  background-color: #fff;
   font-size: 33rpx;
+  color: #333;
 }

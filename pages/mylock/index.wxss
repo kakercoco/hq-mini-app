@@ -7,9 +7,10 @@ page{
   font-size: 27rpx;
   height: 105rpx;
   line-height: 105rpx;
-  background-color: #2b2b2b;
-  border-bottom: 1px solid #222;
+  background-color: #fff;
+  border-bottom: 1px solid #e1e1e1;
   padding: 0 20rpx;
+  color: #333;
 }
 .main-status{
   padding: 0 10rpx;
@@ -17,6 +18,7 @@ page{
   margin-top: 30rpx;
   line-height: 38rpx;
   border-radius: 5rpx;
+  background-color: #b3a06a;
 }
 .main-btn{
   border: none;
@@ -25,11 +27,11 @@ page{
   width: 150rpx;
   height: 60rpx;
   border-radius: 60rpx;
-  border: 1px solid #ffcc33;
+  border: 1px solid #b3a06a;
   margin-top: 23rpx;
   line-height: 60rpx;
   text-align: center;
-  color: #fc3;
+  color: #b3a06a;
 }
 .main-btn image{
   width:30rpx;
@@ -45,9 +47,10 @@ page{
   font-size: 27rpx;
   height: 105rpx;
   line-height: 105rpx;
-  background-color: #2b2b2b;
-  border-bottom: 1px solid #222;
+  background-color: #fff;
+  border-bottom: 1px solid #e1e1e1;
   padding: 0 20rpx; 
+  color: #333;
 }
 .second-id:last-of-type{
   border: none;
@@ -60,13 +63,16 @@ page{
   height: 105rpx;
   line-height: 105rpx;
   text-align: center;
-  background-color: #2b2b2b;
+  background-color: #fff;
+  color: #b3a06a;
 }
 .mylock-sever>view{
   width: 50%;
   height: 100%;
   padding: 0rpx 80rpx;
-  border-right: 1rpx solid #222;
+}
+.mylock-sever>view:nth-of-type(1){
+  border-right: 1rpx solid #b3a06a;
 }
 .mylock-sever image{
   width: 42rpx;

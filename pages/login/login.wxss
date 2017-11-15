@@ -1,20 +1,18 @@
 /* pages/login/login.wxss */
 page{
-  background-image: url(/img/login-bg.png);
   background-size: cover;
 }
 .login{
   padding: 160rpx 40rpx 0 40rpx;
 }
 .login-phone{
-  border-bottom: 1rpx solid #3e3e3e;
+  border-bottom: 1rpx solid #b3b3b3;
   height: 120rpx;
   padding: 30rpx 10rpx;
   line-height: 120rpx;
 }
 .login-phone .img{
     width: 44rpx;
-    height: 44rpx;
     margin-top: 8rpx;
 }
 .login-phone input{
@@ -22,14 +20,13 @@ page{
   margin-left: 30rpx;
   height: 50rpx;
   width: 370rpx;
-  color:#fff;
+  color:#333;
   margin-top: 5rpx;
 }
 .login-phone text{
   line-height: 30rpx;
   height: 60rpx;
-  background-color: rgba(255,255, 255, 0.12);
-  color:#fc3;
+  color:#b29e69;
   font-size: 23rpx;
   padding: 15rpx 30rpx;
   border-radius: 60rpx;
@@ -40,4 +37,5 @@ page{
   margin-top: 200rpx;
   font-size: 31rpx;
   line-height: 100rpx;
+  color: #fff;
 }

@@ -1,9 +1,9 @@
 <!--pages/editIdcard/index.wxml-->
-<view class="bg-2b input">
+<view class="bg-fff input">
   <input type="idcard" maxlength="18" placeholder="请输入你的身份证号" value="{{content}}" bindinput="chengeIpt" />
 </view>
 <view class="edit-btn">
   <navigator url="/pages/newlock/index" open-type="redirect">
-    <button class="bg-fc3" bindtap="sendData">确认</button>
+    <button class="c-fff bg-fc3" bindtap="sendData">确认</button>
   </navigator>
 </view>

@@ -4,15 +4,24 @@
 		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
-		"minified": true
+		"minified": true,
+		"newFeature": true
 	},
-	"compileType": "weapp",
+	"compileType": "miniprogram",
 	"libVersion": "1.5.2",
 	"appid": "wx639de05c0782967b",
 	"projectname": "%E9%BB%84%E9%9B%80%E4%BA%91%E9%94%811.0",
 	"condition": {
-		"weapp": {
+		"search": {
 			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
 			"list": [
 				{
 					"id": -1,
@@ -43,16 +52,20 @@
 					"name": "授权记录",
 					"pathName": "pages/offer/index",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "设置",
+					"pathName": "pages/setting/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "授权开锁",
+					"pathName": "pages/addoffer/index",
+					"query": ""
 				}
 			]
-		},
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
 		}
 	}
 }

@@ -1,9 +1,9 @@
 <!--pages/editPhone/index.wxml-->
-<view class="bg-2b input">
+<view class="bg-fff input">
   <input type="number" maxlength="18" placeholder="请输入你的手机号" bindinput="chengeIpt" />
 </view>
 <view class="edit-btn">
   <navigator url="/pages/adddetail/index" open-type="navigateBack">
-    <button class="bg-fc3" bindtap="sendData">确认</button>
+    <button class="bg-fc3 c-fff" bindtap="sendData">确认</button>
   </navigator>
 </view>

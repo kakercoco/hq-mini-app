@@ -1,15 +1,12 @@
 <!--pages/addoffer/index.wxml-->
-<view class="add-main bg-2b">
-  <text class="fl c-fc3">添加授权</text>
+<view class="add-main bg-fff">
+  <text class="fl">添加授权</text>
   <navigator url="/pages/adddetail/index" open-type="navigate">
-  <text class="fr c-fc3 tac">+</text>
+  <text class="fr tac">+</text>
   </navigator>
 </view>
 <view class="list-mian">
-  <view class="list bg-2b mt-20">
-    <view class="top">
-      <text class="fr">授权人电话：139xxxx9999</text>
-    </view>
+  <view class="list bg-fff mt-20">
     <view class="down">
       <view class="down-l fl">
         <image src="/img/user.png"></image>
@@ -17,21 +14,18 @@
       <view class="down-c fl ml-20">
         <view class="id">
           <text>我</text>
-          <text class="c-333 bg-fc3 ml-20">户主</text>
+          <text class="c-333 bg-fc3 ml-20">授权用户</text>
         </view>
         <view class="phone mt-10">手机号码：139xxxx8888</view>
         <view class="phone">开始时间：2017年8月7日</view>
         <view class="phone">结束时间：2017年8月8日</view>
       </view>
       <view class="down-r fr">
-        <text class="tac c-fc3">停止授权</text>
+        <text class="tac ">停止授权</text>
       </view>
     </view>
   </view>
-  <view class="list bg-2b mt-20">
-    <view class="top">
-      <text class="fr">授权人电话：139xxxx9999</text>
-    </view>
+  <view class="list bg-fff">
     <view class="down">
       <view class="down-l fl">
         <image src="/img/user.png"></image>
@@ -46,14 +40,11 @@
         <view class="phone">结束时间：2017年8月8日</view>
       </view>
       <view class="down-r fr">
-        <text class="tac c-fc3 active">开启授权</text>
+        <text class="tac active">开启授权</text>
       </view>
     </view>
   </view>
-  <view class="list bg-2b mt-20">
-    <view class="top">
-      <text class="fr">授权人电话：139xxxx9999</text>
-    </view>
+  <view class="list bg-fff">
     <view class="down">
       <view class="down-l fl">
         <image src="/img/user.png"></image>
@@ -68,14 +59,11 @@
         <view class="phone">结束时间：2017年8月8日</view>
       </view>
       <view class="down-r fr">
-        <text class="tac c-fc3 active">停止授权</text>
+        <text class="tac active">停止授权</text>
       </view>
     </view>
   </view>
-  <view class="list bg-2b mt-20">
-    <view class="top">
-      <text class="fr">授权人电话：139xxxx9999</text>
-    </view>
+  <view class="list bg-fff">
     <view class="down">
       <view class="down-l fl">
         <image src="/img/user.png"></image>
@@ -90,14 +78,11 @@
         <view class="phone">结束时间：2017年8月8日</view>
       </view>
       <view class="down-r fr">
-        <text class="tac c-fc3 active">停止授权</text>
+        <text class="tac active">停止授权</text>
       </view>
     </view>
   </view>
-  <view class="list bg-2b mt-20">
-    <view class="top">
-      <text class="fr">授权人电话：139xxxx9999</text>
-    </view>
+  <view class="list bg-fff">
     <view class="down">
       <view class="down-l fl">
         <image src="/img/user.png"></image>
@@ -112,7 +97,7 @@
         <view class="phone">结束时间：2017年8月8日</view>
       </view>
       <view class="down-r fr">
-        <text class="tac c-fc3 active">停止授权</text>
+        <text class="tac  active">停止授权</text>
       </view>
     </view>
   </view>

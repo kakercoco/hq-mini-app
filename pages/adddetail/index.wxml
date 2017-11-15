@@ -1,43 +1,45 @@
 <!--pages/adddetail/index.wxml-->
 <view class="main-data ">
-  <view class="title bg-2b">
+  <view class="title bg-fff">
     <text>基本资料</text>
   </view>
   
-  <view class="list bg-2b"  bindtap='showChoose'>
+  <view class="list bg-fff"  bindtap='showChoose'>
       <text class="fl">授权锁号</text>
-      <text class="fr c-fc3">{{choosed}}</text>
+      <text class="fr">{{choosed}}</text>
   </view>
-  <view class="list bg-2b">
+  <view class="list bg-fff">
     <navigator url="/pages/editName/index" open-type="navigate">
       <text class="fl">被授权人姓名</text>
       <image src="/img/next.png" class="fr next"></image>
-      <text class="fr">爸爸</text>
+      <text class="fr" style='color:#5a5a5a;'>爸爸</text>
     </navigator>
   </view>
-  <view class="list bg-2b">
+  <view class="list bg-fff">
     <navigator url="/pages/editPhone/index" open-type="navigate">
       <text class="fl">被授权人手机</text>
       <image src="/img/next.png" class="fr next"></image>
-      <text class="fr">13899997777</text>
+      <text class="fr" style='color:#5a5a5a;'>13899997777</text>
     </navigator>
   </view>
-  <view class="title bg-2b mt-20">
+  <view class="title bg-fff mt-20">
     <text>授权信息</text>
   </view>
-  <view class="list bg-2b">
+  <view class="list bg-fff">
     <text class="fl">开始时间</text>
     <picker mode="date" class="fr" start="2015-01-01" end="2018-12-31" value="{{startTime}}" bindchange="bindchangeStart">
       <view class="c-lan">{{startTime}}</view>
     </picker>
+    <image src='/img/edit_time2.png' mode='widthFix' class='fr pickDate'></image>
   </view>
-  <view class="list bg-2b">
+  <view class="list bg-fff">
     <text class="fl">结束时间</text>
     <picker mode="date" class="fr" start="2015-01-01" end="2018-12-31" value="{{endTime}}" bindchange="bindchangeEnd">
       <view class="c-lan">{{endTime}}</view>
     </picker>
+    <image src='/img/edit_time2.png' mode='widthFix' class='fr pickDate'></image>
   </view>
-  <view class="list bg-2b">
+  <view class="list bg-fff">
     <text class="fl">每日有效时段</text>
     <picker mode="time" class="fr" start="06:01" end="12:01" value="{{mortime.value2}}" bindchange="morTimeChange2">
       <view class="c-lan">{{mortime.value2}}</view>
@@ -46,7 +48,7 @@
       <view class="c-lan">{{mortime.value1}}--</view>
     </picker>    
   </view>
-  <view class="list bg-2b">
+  <view class="list bg-fff">
     <text class="fl">每日有效时段</text>
     <picker mode="time" class="fr" start="12:01" end="18:01" value="{{afttime.value2}}" bindchange="aftTimeChange2">
       <view class="c-lan">{{afttime.value2}}</view>
@@ -55,7 +57,7 @@
       <view class="c-lan">{{afttime.value1}}--</view>
     </picker>    
   </view>
-  <view class="list bg-2b">
+  <view class="list bg-fff">
     <text class="fl">每日有效时段</text>
     <picker mode="time" class="fr" start="18:01" end="22:01" value="{{nigtime.value2}}" bindchange="nigTimeChange2">
       <view class="c-lan">{{nigtime.value2}}</view>
@@ -64,17 +66,17 @@
       <view class="c-lan">{{nigtime.value1}}--</view>
     </picker>    
   </view>
-  <view class="list bg-2b">
+  <view class="list bg-fff">
       <text class="fl">开锁账户</text>
       <image src="/img/next.png" class="fr next"></image>
-      <text class="fr">xxxxxxxxxxxxxx</text>
+      <text class="fr" style='color:#5a5a5a;'>xxxxxxxxxxxxxx</text>
   </view>
-  <view class="list bg-2b">
+  <view class="list bg-fff">
       <text class="fl">开锁密码</text>
       <image src="/img/next.png" class="fr next"></image>
-      <text class="fr">xxxxxxxxxxxxxx</text>
+      <text class="fr" style='color:#5a5a5a;'>xxxxxxxxxxxxxx</text>
   </view>
-  <view class="list bg-2b">
+  <view class="list bg-fff">
     <navigator url="/pages/offerWhy/index" open-type="navigate">
       <text class="fl">授权原因</text>
       <image src="/img/next.png" class="fr next"></image>
@@ -83,10 +85,10 @@
 </view>
 <view class='index-bg' wx:if="{{showHide}}"></view>
 <view class='choose-lock' wx:if="{{showHide}}">
-  <view class='choose-title tac bg-2b'>请选择锁号</view>
+  <view class='choose-title tac bg-fff'>请选择锁号</view>
   <view class='choose-list' wx:for="{{chooseList}}" data-id='{{item}}' bindtap='chooseId'>
     {{item}}
-    <image src='/img/sure.png' class='fr' wx:if="{{choosed==item}}"></image>
+    <image src='/img/sure.png' class='fr' wx:if="{{choosed==item}}" mode='widthFix'></image>
   </view>
 </view>
 <view class="add-btn">

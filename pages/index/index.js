@@ -120,16 +120,16 @@ Page({
       listShow: false
     })
   },
-  touchStart:function(e){
-    this.setData({
-      imgUrl: "/img/opening.png"
-    })
-  },
-  touchEnds:function(e){
-    this.setData({
-      imgUrl: "/img/open.png"
-    })
-  },
+  // touchStart:function(e){
+  //   this.setData({
+  //     imgUrl: "/img/opening.png"
+  //   })
+  // },
+  // touchEnds:function(e){
+  //   this.setData({
+  //     imgUrl: "/img/open.png"
+  //   })
+  // },
   openlock:function(e){
     this.setData({
       bgShow: true,

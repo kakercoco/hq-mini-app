@@ -1,6 +1,6 @@
 <!--pages/offer/index.wxml-->
 <!--pages/openlock/index.wxml-->
-<view class="open-list bg-2b">
+<view class="open-list bg-fff">
   <view class="top">我</view>
   <view class="down">
     <view class="down-l fl">
@@ -14,7 +14,7 @@
     <navigator url="/pages/offerdetail/index" open-type="navigate">
       <view class="down-r fr">
         <image src="/img/next.png" class='fr'></image>
-        <text class="fl c-fc3"> 生效中</text>
+        <text class="fl"> 生效中</text>
       </view>
     </navigator>
   </view>
@@ -33,7 +33,7 @@
     </view>
   </view>
 </view>
-<view class="open-list bg-2b">
+<view class="open-list bg-fff">
   <view class="top">baby</view>
   <view class="down">
     <view class="down-l fl">
@@ -47,7 +47,7 @@
     <navigator url="/pages/offerdetail/index" open-type="navigate">
       <view class="down-r fr">
         <image src="/img/next.png" class='fr'></image>
-        <text class="fl c-999"> 已暂停</text>
+        <text class="fl"> 已暂停</text>
       </view>
     </navigator>
   </view>
@@ -66,7 +66,7 @@
     </view>
   </view>
 </view>
-<view class="open-list bg-2b">
+<view class="open-list bg-fff">
   <view class="top">爸爸</view>
   <view class="down">
     <view class="down-l fl">
@@ -80,7 +80,7 @@
     <navigator url="/pages/offerdetail/index" open-type="navigate">
       <view class="down-r fr">
         <image src="/img/next.png" class='fr'></image>
-        <text class="fl c-fc3"> 生效中</text>
+        <text class="fl"> 生效中</text>
       </view>
     </navigator>
   </view>
@@ -101,17 +101,17 @@
 </view>
 <view class='i-bg' wx:if="{{showHide}}" bindtap='hideChoose'></view>
 <view class='choose-edit' wx:if="{{showHide}}">
-  <view class='choose-title tac bg-2b'>请选择修改内容</view>
+  <view class='choose-title tac'>请选择修改内容</view>
   <view class='choose-list' bindtap='chooseCont' data-cont='myDate'>
     <picker mode="date" start="2015-08-08" end="2018-12-30">
       授权结束日期
-      <image src='/img/sure.png' class='fr' wx:if="{{choosed=='myDate'}}"></image>
+      <image src='/img/sure.png' class='fr' wx:if="{{choosed=='myDate'}}" mode='widthFix'></image>
     </picker>
   </view>
   <view class='choose-list' bindtap='chooseCont' data-cont='myTime'>
     <picker mode="multiSelector" range="{{arr}}" value='{{arr[0][0]}}'>
       授权时间段
-      <image src='/img/sure.png' class='fr' wx:if="{{choosed=='myTime'}}"></image>
+      <image src='/img/sure.png' class='fr' wx:if="{{choosed=='myTime'}}" mode='widthFix'></image>
     </picker>
   </view>
 </view>

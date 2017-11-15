@@ -1,11 +1,11 @@
 <!--pages/login/login.wxml-->
 <view class="login">
   <view class="login-phone">
-    <image src="/img/phone.png" class="fl img"></image>
+    <image src="/img/phone.png" class="fl img" mode='widthFix'></image>
     <input type="number" placeholder="请输入您的手机号" class="fl" />
   </view>
   <view class="login-phone">
-    <image src="/img/code.png" class="fl img"></image>
+    <image src="/img/code.png" mode='widthFix' class="fl img"></image>
     <input type="number" placeholder="验证码"  class="fl"/>
     <text class="fr">获取验证码</text>
   </view>
